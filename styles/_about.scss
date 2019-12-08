@@ -1,0 +1,50 @@
+/* --------------About Us------------- */
+#about-us{
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    /* 这个和四个数字那个功能是一样的吧？？？？ */
+  }
+  
+  .about-title
+  {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+  }
+  
+  #about-us ul li{
+    margin: 10px 0;
+    /* 上下为10 左右为0*/
+  }
+  
+  #about-us ul{
+    margin-left: 30px;
+   
+  }
+  
+  /* Testimonials */
+  
+  #Testimonials
+  {
+    margin:100px 0;
+  }
+  
+  .testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+  }
+  
+  .testimonials img{
+    height: 60px;
+    width:60px;
+    border-radius:50%;
+    margin: 0 10px;
+  }
+  
+  .user-details
+  {
+    display: inline-block;
+    font-size:12px;
+  }
+  
