@@ -28,6 +28,11 @@
   height: 100px;
 }
 
+.img-fluid {
+  position: relative;
+  top: 10%;
+}
+
 /* ----- Services Section ----- */
 #services {
   padding: 80px 0;
