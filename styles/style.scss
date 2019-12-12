@@ -3,6 +3,11 @@
 @import './about';
 @import './footer';
 @import './social_media';
+@import './testimonials';
+
+
+$main-purple1: #a517ba;
+$main-purple2: #5f1782;
 
 
 * {
@@ -21,7 +26,7 @@
   }
   
   .navbar {
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right, $main-purple1, $main-purple2);
     padding: 0 !important;
   }
   
