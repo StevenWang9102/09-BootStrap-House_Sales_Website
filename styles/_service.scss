@@ -1,11 +1,16 @@
 /* ----- Services Section ----- */
-#services {
-    padding: 80px 0;
-  }
+  #services {
+      padding: 80px 0;
+    }
   
   .service-img {
-    width: 200px;
+    width: 200px auto;
+    height: 100px;
     margin-top: 20px;
+  }
+
+  .service-paragraph{
+    text-align: justify;
   }
   
   .services {
