@@ -16,10 +16,14 @@
     width: 60px;
     transition: 0.5s;
     margin: 5px;
+    border-radius: 10%;
   }
   
   .social-icons a:hover img{
-    transform: translateY(-15px);
+    transform: translate(-10px,-10px);
   }
   
-  
+  #social-media img{
+    width: 80px;
+    margin: 10px;
+  }

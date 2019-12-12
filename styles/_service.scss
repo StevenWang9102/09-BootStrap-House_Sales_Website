@@ -20,7 +20,6 @@
   .services h4 {
     padding: 5px;
     margin-top: 50px;
-    // text-transform: uppercase;
   }
   
   .title::after {
@@ -31,13 +30,12 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    /* transform: translateY(63px); */
   }
   
-  #services .btn-primary {
+  #services .btn-danger {
     box-shadow: none;
     padding:8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right, #5c0569, #9e27da);
   }

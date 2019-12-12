@@ -64,17 +64,16 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-  /* transform: translateY(63px); */
 }
 
-#services .btn-primary {
+#services .btn-danger {
   -webkit-box-shadow: none;
           box-shadow: none;
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: -webkit-gradient(linear, left top, right top, from(#5c0569), to(#9e27da));
+  background-image: linear-gradient(to right, #5c0569, #9e27da);
 }
 
 #about-us {
@@ -127,7 +126,7 @@
   max-width: 180px;
 }
 
-.footer-box .btn-primary {
+.footer-box .btn-danger {
   -webkit-box-shadow: 1px 1px 1px white !important;
           box-shadow: 1px 1px 1px white !important;
   border: 1px;
@@ -163,11 +162,17 @@ hr {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin: 5px;
+  border-radius: 10%;
 }
 
 .social-icons a:hover img {
-  -webkit-transform: translateY(-15px);
-          transform: translateY(-15px);
+  -webkit-transform: translate(-10px, -10px);
+          transform: translate(-10px, -10px);
+}
+
+#social-media img {
+  width: 80px;
+  margin: 10px;
 }
 
 /* Testimonials */
