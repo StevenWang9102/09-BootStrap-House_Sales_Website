@@ -1,53 +1,46 @@
 /* ----------------- Footer Section --------------------- */
-  
-#footer
-{
+
+#footer {
   background-image: linear-gradient(to right, #a517ba, #5f1782);
   color: #fff;
 }
 
-.footer-img{
+.footer-img {
   width: 100%;
   height: 80px;
 }
 
-.footer-box{
+.footer-box {
   padding: 20px;
 }
 
-.footer-box img{
+.footer-box img {
   width: 120px;
   margin-bottom: 20px;
 }
 
-
-.footer-box .form-control
-{
+.footer-box .form-control {
   box-shadow: none !important;
   border: none;
   border-radius: 0;
-  margin-top:15px;
+  margin-top: 15px;
   max-width: 180px;
 }
 
-
-.footer-box .btn-danger
-{
+.footer-box .btn-danger {
   box-shadow: 1px 1px 1px white !important;
   border: 1px;
   border-radius: 5%;
-  margin-top:30px;
+  margin-top: 30px;
   background-color: #7b12af;
 }
 
-hr
-{
+hr {
   background-color: #fff;
 }
 
-.copy-right
-{
-  margin-bottom:0;
+.copy-right {
+  margin-bottom: 0;
   padding-bottom: 20px;
   text-align: center;
 }

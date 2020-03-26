@@ -1,0 +1,28 @@
+/* ----- Social media section --------- */
+
+#social-media {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+#social-media p {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icons img {
+  width: 60px;
+  transition: 0.5s;
+  margin: 5px;
+  border-radius: 10%;
+}
+
+.social-icons a:hover img {
+  transform: translate(-10px, -10px);
+}
+
+#social-media img {
+  width: 80px;
+  margin: 10px;
+}

@@ -1,0 +1,27 @@
+@import "../style.scss";
+
+#Testimonials {
+  margin: 100px 0;
+}
+
+.testimonials {
+  border-left: 4px solid #7b1798;
+  margin-top: 50px;
+}
+
+.testimonials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.sales_agent_title::after {
+  @extend .public_title;
+  width: 250px;
+}
