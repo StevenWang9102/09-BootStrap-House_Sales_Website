@@ -3,6 +3,7 @@
   "description": "bootstrap-practice",
   "scripts": {
     "build": "run-script build",
+    "lint": "",
     "prebuild": "rimraf ./dist",
     "start": "parcel index.html --open"
   },
