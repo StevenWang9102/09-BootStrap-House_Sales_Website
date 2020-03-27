@@ -1,28 +1,31 @@
 /* ----- Social media section --------- */
 
 #social-media {
+  position: relative;
+  height: 240px;
   background-color: #f8f9fa;
   padding: 100px 0;
 }
 
-#social-media p {
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 30px;
+#social-media .container {
+  position: absolute;
+  top: 0;
 }
 
-.social-icons img {
-  width: 60px;
-  transition: 0.5s;
-  margin: 5px;
-  border-radius: 10%;
+#social-media p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 50px;
 }
 
 .social-icons a:hover img {
+  -webkit-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
 }
 
 #social-media img {
-  width: 80px;
+  width: 50px;
   margin: 10px;
+  transition: 0.5s;
+  border-radius: 10%;
 }

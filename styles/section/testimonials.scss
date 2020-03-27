@@ -1,15 +1,19 @@
-@import "../style.scss";
+@import "../general.scss";
 
 #Testimonials {
-  margin: 100px 0;
+  margin: 80px 0;
 }
 
-.testimonials {
+#Testimonials .paragraph {
+  margin-top: 20px;
+}
+
+.testimonials_block {
   border-left: 4px solid #7b1798;
   margin-top: 50px;
 }
 
-.testimonials img {
+.testimonials_block img {
   height: 60px;
   width: 60px;
   border-radius: 50%;

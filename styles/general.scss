@@ -1,0 +1,23 @@
+$main-purple1: #a517ba;
+$main-purple2: #5f1782;
+
+/* ----------------- General ------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.public_title {
+  content: "";
+  background: #7b1798;
+  height: 5px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

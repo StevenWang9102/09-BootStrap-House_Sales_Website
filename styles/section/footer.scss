@@ -19,8 +19,11 @@
   margin-bottom: 20px;
 }
 
+.footer-box:nth-child(1) p {
+  font-size: 12px;
+}
 .footer-box .form-control {
-  box-shadow: none !important;
+  box-shadow: none;
   border: none;
   border-radius: 0;
   margin-top: 15px;
@@ -28,11 +31,14 @@
 }
 
 .footer-box .btn-danger {
-  box-shadow: 1px 1px 1px white !important;
-  border: 1px;
+  border: 2px solid white;
   border-radius: 5%;
   margin-top: 30px;
   background-color: #7b12af;
+}
+
+.footer-box .btn-danger:hover {
+  border: 2px solid white;
 }
 
 hr {
@@ -40,7 +46,7 @@ hr {
 }
 
 .copy-right {
+  text-align: left;
   margin-bottom: 0;
   padding-bottom: 20px;
-  text-align: center;
 }

@@ -1,8 +1,9 @@
-@import "./style.scss";
+@import "./general.scss";
+
+@import "./section/navigation.scss";
 @import "./section/about.scss";
 @import "./section/banner.scss";
 @import "./section/footer.scss";
-@import "./section/public.sass";
 @import "./section/service.scss";
 @import "./section/social_media.scss";
 @import "./section/testimonials.scss";
