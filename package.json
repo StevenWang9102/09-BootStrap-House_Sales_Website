@@ -3,8 +3,6 @@
   "description": "bootstrap-practice",
   "scripts": {
     "build": "run-script build",
-    "lint": "npm run lint:js && npm run lint:css",
-    "lint:css": "stylelint './src/css/**/*.scss'",
     "prebuild": "rimraf ./dist",
     "start": "parcel index.html --open"
   },
