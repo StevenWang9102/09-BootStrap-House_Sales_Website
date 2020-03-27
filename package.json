@@ -4,7 +4,6 @@
   "scripts": {
     "build": "run-script build",
     "lint": "npm run lint:js && npm run lint:css",
-    "lint:js": "eslint ./src/js",
     "lint:css": "stylelint './src/css/**/*.scss'",
     "prebuild": "rimraf ./dist",
     "start": "parcel index.html --open"
