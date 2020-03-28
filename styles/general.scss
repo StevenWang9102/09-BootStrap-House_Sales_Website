@@ -1,0 +1,30 @@
+$main-purple-left: #c027d8e1;
+$main-purple-right: #5f1782;
+$basic-background: #f8f9fa;
+
+/* ----------------- General ------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  font-family: "Times", serif;
+  text-align: justify;
+}
+
+body h1,
+body h2,
+body h3 {
+  font-weight: 800;
+}
+
+.public_title {
+  content: "";
+  display: block;
+  background: #7b1798;
+  height: 5px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}

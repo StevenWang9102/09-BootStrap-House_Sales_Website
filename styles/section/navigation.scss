@@ -1,0 +1,48 @@
+@import "../general.scss";
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid rgb(231, 228, 228);
+  z-index: 10;
+}
+
+#nav-bar .navbar {
+  background-image: linear-gradient(
+    to right,
+    $main-purple-left,
+    $main-purple-right
+  );
+  padding: 3px;
+}
+
+#nav-bar .collapse li:hover {
+  border-radius: 1%;
+  background-color: $main-purple-left;
+}
+
+#nav-bar .navbar-brand img {
+  height: 40px;
+  padding-left: 5px;
+}
+
+#nav-bar .navbar-nav li {
+  padding: 0 10px;
+}
+
+#nav-bar .navbar-nav li a {
+  color: #fff;
+  font-weight: 600;
+  float: right;
+  text-align: center;
+}
+
+#nav-bar .fa-bars {
+  color: #fff;
+  font-size: 30px;
+}
+
+#nav-bar .navbar-toggler {
+  outline: none;
+}
