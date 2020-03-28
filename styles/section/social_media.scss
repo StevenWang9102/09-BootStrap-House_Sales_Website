@@ -1,37 +1,35 @@
-/* ----- Social media section --------- */
+@import "../general.scss";
 
 #social-media {
   position: relative;
   height: 240px;
-  background-color: #f8f9fa;
   padding: 100px 0;
+  background-color: $basic-background;
 }
 
 #social-media .container {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
   width: 90%;
+  transform: translateX(-50%);
 }
 
 #social-media h1 {
   width: 400px;
   font-size: 30px;
-  font-weight: 600;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.social-media-icons a:hover img {
-  -webkit-transform: translate(-10px, -10px);
-  transform: translate(-10px, -10px);
-}
-
 #social-media img {
   width: 50px;
   margin: 10px;
-  transition: 0.5s;
   border-radius: 10%;
+}
+
+#social-media img:hover {
+  transition: 0.5s;
+  transform: translate(-5px, -5px);
 }

@@ -1,7 +1,7 @@
 @import "../general.scss";
 
 #about-us {
-  background-color: #f8f9fa;
+  background-color: $basic-background;
   padding-bottom: 50px;
   padding-top: 50px;
 }
@@ -14,18 +14,18 @@
 }
 
 #about-us img {
-  margin-left: 10%;
   width: 90%;
   height: auto;
   margin-top: 90px;
+  margin-left: 10%;
 }
 
 @media only screen and (max-width: 768px) {
   // when screen < 768px
   #about-us img {
-    margin-top: 30px;
     width: 80%;
     height: auto;
+    margin-top: 30px;
   }
 }
 
@@ -43,15 +43,15 @@
   }
 }
 
-#about-us ul li {
-  margin: 10px 0;
-}
-
 #about-us ul {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
-.container .why_us_title::after {
+#about-us li {
+  margin: 15px 0;
+}
+
+#about-us .why_us_title::after {
   @extend .public_title;
-  width: 180px;
+  width: 170px;
 }
