@@ -10,15 +10,21 @@
 #social-media .container {
   position: absolute;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
 }
 
-#social-media p {
+#social-media h1 {
+  width: 400px;
   font-size: 30px;
   font-weight: 600;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.social-icons a:hover img {
+.social-media-icons a:hover img {
   -webkit-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
 }

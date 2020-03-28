@@ -1,31 +1,32 @@
 @import "../general.scss";
 
-#Testimonials {
+#testimonials {
   margin: 80px 0;
 }
 
-#Testimonials .paragraph {
+#testimonials .testim_paragraph {
   margin-top: 20px;
 }
 
-.testimonials_block {
+.testimonials_column {
   border-left: 4px solid #7b1798;
   margin-top: 50px;
 }
 
-.testimonials_block img {
-  height: 60px;
-  width: 60px;
+.testimonials_column img {
+  height: 70px;
+  width: 80px;
   border-radius: 50%;
   margin: 0 10px;
 }
 
-.user-details {
+#testimonials .user-details {
   display: inline-block;
-  font-size: 12px;
+  font-size: 18px;
+  // background-color: khaki;
 }
 
-.sales_agent_title::after {
+#testimonials h1::after {
   @extend .public_title;
   width: 250px;
 }

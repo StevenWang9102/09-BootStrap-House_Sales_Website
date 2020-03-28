@@ -10,19 +10,19 @@
   height: 80px;
 }
 
-.footer-box {
+.footer-column {
   padding: 20px;
 }
 
-.footer-box img {
+.footer-column img {
   width: 120px;
   margin-bottom: 20px;
 }
 
-.footer-box:nth-child(1) p {
+.footer-column:nth-child(1) p {
   font-size: 12px;
 }
-.footer-box .form-control {
+.footer-column .form-control {
   box-shadow: none;
   border: none;
   border-radius: 0;
@@ -30,14 +30,14 @@
   max-width: 180px;
 }
 
-.footer-box .btn-danger {
+.footer-column .btn-danger {
   border: 2px solid white;
   border-radius: 5%;
   margin-top: 30px;
   background-color: #7b12af;
 }
 
-.footer-box .btn-danger:hover {
+.footer-column .btn-danger:hover {
   border: 2px solid white;
 }
 
