@@ -1,6 +1,6 @@
 <!-- Introduction -->
 
-This is a website that I mainly practice 12 grid system of bootstrap. It displays a house agency‘s main page. The whole website is fully responsive that bases on different screen sizes.
+    This is a website that I mainly practice 12 grid system of bootstrap. It displays a house agency‘s main page. The whole website is fully responsive that bases on different screen sizes.
 
 <!-- How it works? -->
 
@@ -13,4 +13,4 @@ This is a website that I mainly practice 12 grid system of bootstrap. It display
 
 <!-- Source Code -->
 
-You can see more details when you run my code. My Source code is on my Github - https://github.com/StevenWang9102, simply run "npm start" in your VS code terminal.
+    You can see more details when you run my code. My Source code is on my Github - https://github.com/StevenWang9102, simply run "npm start" in your VS code terminal.
