@@ -14,7 +14,7 @@
     ]
   },
   "scripts": {
-    "build": "run-script build",
+    "build": "parcel build index.html",
     "lint": "",
     "prebuild": "rimraf ./dist",
     "start": "parcel index.html --open"
