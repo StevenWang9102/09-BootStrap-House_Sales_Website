@@ -5,11 +5,14 @@
 <!-- How it works? -->
 
     run "npm start" in VS code terminal.
+
+    You can also watch project videos on my personal website.(https://stevenwangakl.wixsite.com/myprojects).
+
     You can play with it on my hosted website online (http://bootstrap-house-selling.s3-website-ap-southeast-2.amazonaws.com).
 
 <!-- Functions -->
 
-- Display house information responsively
+    - Display house information responsively
 
 <!-- Source Code -->
 
